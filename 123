@@ -1,0 +1,21 @@
+AREA OF EXPERTISE:
+• Data Collection, Data Analysis, Feature Engineering, Data Visualization, Model Training, Hyperparameter Tuning.
+• Regression, Classification, Clustering, Image Classification, Object detection, Text Mining, Text Classification, Text Summarization.
+• Python, Scikit-learn, Numpy, Pandas, OpenCV, Matplotlib, Seaborn.
+• Keras, Tensorflow, Pytorch, Docker, Kubernetes, AWS Sagemaker, EC2, S3.
+• MLOps – Data Drift, Model drift, Outlier Detection, Fairness Analysis.
+
+
+Responsibilities:
+• Using Machine learning and Deep learning techniques to develop and evaluate algorithms to improve performance, quality, data management and accuracy.
+• Researching and Implementing appropriate ML Algorithms and DL Algorithms.
+• Creating EC2 Instances and using s3 bucket to store & retrieve the data and building models and deploying on AWS through APIs.
+• Using Docker to containerize the code and push it to AWS ECR.
+• Developing a computer vision model using Mask RCNN for detecting and classifying different products in images data which is in live currently with an accuracy of 92%.
+• Worked on Image Enhancement and Image processing techniques in this project and fine-tuned the algorithm which improved the performance of the model.
+• Maintain and monitor the models during real time data streaming to analyze the drift in data, bias in the model predictions.
+• Trained and evaluated neural networks, cross validation, hyper parameter tuning, visualized the model performance using Tensor board for Pneumonia dataset.
+• Worked on Text extraction from Scanned Insurance Documents using PyTesseract and developed a relation between key-value pairs to maintain the data in SQL Database.
+• Built a NER Extraction and Classification ensemble model using NERC tools like Stanford NER, NLTK & Polyglot to extract entities from these insurance documents.
+• Worked on fine tuning Text Summarization using seq2seq models for summarizing the text documents. Evaluated the model using bleu score.
+
