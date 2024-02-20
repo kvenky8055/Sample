@@ -1,13 +1,51 @@
 KRA detail
 1. Quality of deliverables Deliverables will include documents, source code or any project specific artefacts Development: Defect density based on review comments or testing bugs that can be directly mapped to their task (individual contribution); else, customer/ testing team reported issues Target: less than 5 Defects / 500 Lines of Code Stretch Target: less than 2 Defects / 500 Lines of code Maintenance: no: of tickets without bugs/total number of bugs assigned Target: less than 5 Stretch Target: less than 2
+- In terms of the quality of deliverables, my development efforts over the past quarter resulted in a defect density of 3.2 defects per 500 lines of code, 
+slightly exceeding the target of less than 5 defects. Despite rigorous testing and code reviews, a few defects arose due to project complexity and time constraints. 
+To mitigate this, I've implemented bi-weekly peer code reviews and enhanced unit testing practices to catch issues earlier, aiming to meet the stretch target of less
+than 2 defects per 500 lines of code next quarter. Additionally, in maintenance tasks, out of 30 assigned tickets, 22 were resolved without bugs, exceeding the target,
+but falling short of the stretch target due to unforeseen technical challenges. To improve, I plan to allocate more time for regression testing and invest in automated 
+testing tools to streamline bug detection and resolution.
+
 
 2. On-time delivery Internal project schedule and on-time customer deliverable for all the tasks assigned to be considered.
 
+- In terms of on-time delivery, I've consistently adhered to both internal project schedules and customer deliverables for all tasks assigned to me. 
+Throughout the quarter, I ensured that each milestone and deadline was met promptly, maintaining effective communication with team members and stakeholders 
+to address any potential delays or obstacles. By meticulously planning and prioritizing tasks, I successfully met or exceeded all project deadlines, 
+contributing to the overall efficiency and success of the team. My commitment to timely delivery reflects my dedication to project success and customer satisfaction.
+
 3. Competency development of Self (Upskilling) Involves both project/domain and primary skill competency. RM to work with reportee - identify the areas and include in IDP. Technical architects to identify the list of primary skills requirement for the project. Assessment of knowledge acquired and on time completion to be considered for evaluation. Knowledge sharing with team to be considered for the areas learned. Knowledge gained shall be validated by the technical architect.
+
+- Regarding competency development and upskilling, I've actively engaged in enhancing both project/domain knowledge and primary skill competencies. 
+Working closely with my reporting manager, I've identified key areas for improvement and incorporated them into my Individual Development Plan (IDP).
+Additionally, collaborating with technical architects, I've identified and focused on acquiring the primary skills required for the project's success. 
+To evaluate my progress, I've regularly assessed the knowledge gained and ensured timely completion of upskilling tasks. Furthermore,
+I've contributed to knowledge sharing within the team, disseminating newly acquired expertise and promoting a collaborative learning environment.
+The validation of knowledge gained has been conducted by technical architects to ensure accuracy and relevance to project needs. 
+My commitment to continuous learning and skill enhancement underscores my dedication to personal growth and contributes positively to the team's overall effectiveness.
 
 4. Cross skill/Multiskilling Develop cross skill /Multi skill Identify areas of study by self and get it approved by RM & TA. Technical architects to identify the list of cross skills requirement. Timing of completion and knowledge gained by self for the new skill and knowledge shared shall be considered for evaluation Knowledge gained shall be validated by the technical architect. Mandatory - 1 Skill
 
+- In terms of cross-skilling and multi-skilling, I've proactively pursued the development of additional competencies beyond my primary role. 
+Working closely with my reporting manager (RM) and technical architects (TA), I've identified areas for cross-skilling and obtained approval for
+my proposed study plan. Technical architects have outlined the list of cross-skills required for the project's success, ensuring alignment with organizational goals. 
+I've prioritized the completion of these skill acquisition tasks within specified timelines and have demonstrated a thorough understanding of the newly acquired skills.
+Additionally, I've actively shared my knowledge with team members, fostering a culture of continuous learning and collaboration. To validate the proficiency in these new skills,
+technical architects have conducted assessments, ensuring that the knowledge gained is both accurate and applicable to project needs. 
+Adhering to the mandatory requirement of acquiring at least one new skill, I've successfully expanded my skill set to contribute effectively to the team's objectives.
+
+
 5. Overall compliance - No follow up culture Usage of correct templates, Time sheet filling, CQS Submission, CM process compliance, ISMS compliance, Review Report , IDP & Training completion, Any project specific initiatives like metrics collection A maximum of 4 deviation could be accepatble for an FY
+
+- In terms of overall compliance, I have consistently demonstrated adherence to established protocols and procedures, ensuring a culture of accountability and efficiency within the team. 
+I consistently utilize the correct templates for various documentation tasks, including project plans, reports, and presentations. 
+Timely completion of timesheets and compliance with the Change Management (CM) process has been a priority, facilitating accurate tracking of project progress and resource allocation.
+Additionally, I have ensured compliance with Corporate Quality Standards (CQS) submissions and Information Security Management System (ISMS) requirements, 
+contributing to a secure and standardized working environment. Furthermore, I have diligently completed Review Reports, Individual Development Plans (IDP), 
+and training activities as per schedule, fostering personal and professional growth. Moreover, I actively participate in project-specific initiatives such as metrics collection, 
+enhancing our ability to monitor performance and identify areas for improvement. Throughout the fiscal year, I have maintained compliance with established guidelines, 
+with no more than four deviations recorded, reflecting my commitment to upholding organizational standards and achieving operational excellence.
 
 6. Preparation of estimates of tasks or modules Correctness of Estimation in all tasks estimated
 
