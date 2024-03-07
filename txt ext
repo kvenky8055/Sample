@@ -1,0 +1,61 @@
+import pandas as pd
+
+# Function to parse the text file and extract relevant data
+def parse_text_file(file_path):
+    with open(file_path, 'r') as file:
+        lines = file.readlines()
+
+    sections = []
+    section_lines = []
+    opcodes = []
+    command_lines = []
+
+    section_name = None
+
+    for line in lines:
+        if line.startswith("["):
+            if section_name:
+                sections.append(section_name)
+                section_lines.append("".join(section_lines))
+                opcodes.append("".join(opcodes_lines))
+                command_lines.append("".join(command_lines))
+                opcodes_lines = []
+                section_lines = []
+                command_lines = []
+
+            section_name = line.strip()
+        elif "// From command line" in line:
+            command_lines.append(line.strip())
+        elif "OPCODE" in line:
+            opcodes_lines.append(line.strip())
+        else:
+            section_lines.append(line.strip())
+
+    if section_name:
+        sections.append(section_name)
+        section_lines.append("".join(section_lines))
+        opcodes.append("".join(opcodes_lines))
+        command_lines.append("".join(command_lines))
+
+    return {
+        "Section": sections,
+        "Section Text": section_lines,
+        "OPCODE": opcodes,
+        "Command Line": command_lines
+    }
+
+# Function to save the parsed data into an Excel file
+def save_to_excel(data, excel_file):
+    df = pd.DataFrame(data)
+    df.to_excel(excel_file, index=False)
+
+# Main function to parse text file and save to Excel
+def main():
+    file_path = 'your_text_file.txt'
+    excel_file = 'parsed_data.xlsx'
+    parsed_data = parse_text_file(file_path)
+    save_to_excel(parsed_data, excel_file)
+    print("Data has been saved to Excel successfully!")
+
+if __name__ == "__main__":
+    main()
