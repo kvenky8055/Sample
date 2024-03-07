@@ -1,0 +1,54 @@
+import pandas as pd
+
+# Function to extract lines based on criteria
+def extract_lines(file_path):
+    sections = []
+    opcodes = []
+    from_command_lines = []
+
+    with open(file_path, 'r') as file:
+        lines = file.readlines()
+        i = 0
+        while i < len(lines):
+            if lines[i].startswith("[") and lines[i].endswith("]\n"):
+                # Extracting section name
+                section_name = lines[i].strip()
+                sections.append(section_name)
+                i += 1
+                # Extracting lines between section name and OPCODE line
+                while i < len(lines) and not lines[i].startswith("OPCODE"):
+                    i += 1
+                if i < len(lines):
+                    opcodes.append(lines[i].strip())
+                else:
+                    opcodes.append("")  # No OPCODE found
+                i += 1
+                # Extracting lines with OPCODE and the line next to // From command line
+                while i < len(lines) and not lines[i].startswith("// From command line"):
+                    i += 1
+                if i < len(lines):
+                    from_command_lines.append(lines[i].strip())
+                else:
+                    from_command_lines.append("")  # No command line found
+                i += 1
+            else:
+                i += 1
+
+    return sections, opcodes, from_command_lines
+
+# Function to save extracted lines into Excel file
+def save_to_excel(sections, opcodes, from_command_lines, excel_file):
+    data = {'Section': sections, 'OPCODE': opcodes, 'From Command Line': from_command_lines}
+    df = pd.DataFrame(data)
+    df.to_excel(excel_file, index=False)
+
+# Main function
+def main():
+    file_path = 'input.txt'
+    excel_file = 'output.xlsx'
+    sections, opcodes, from_command_lines = extract_lines(file_path)
+    save_to_excel(sections, opcodes, from_command_lines, excel_file)
+    print("Extraction and saving completed successfully.")
+
+if __name__ == "__main__":
+    main()
